@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora Simples</title>
+</head>
+
+<body>
+    <header>
+        <a href="/jogos/index.html" class="linkMenu">Início</a>
+    </header>
+    <div class="container">
+        <!-- Resultado -->
+        <div class="resultados">
+            <input id="exibirResultado">
+            <p id="erroMensagem" class="erro-mensagem"></p>
+        </div>
+
+        <!-- Teclado Numérico -->
+        <div>
+            <button value="7" id="sete" class="numeros">7</button>
+            <button value="8" id="oito" class="numeros">8</button>
+            <button value="9" id="nove" class="numeros">9</button>
+        </div>
+        <div>
+            <button value="4" id="quatro" class="numeros">4</button>
+            <button value="5" id="cinco" class="numeros">5</button>
+            <button value="6" id="seis" class="numeros">6</button>
+        </div>
+        <div>
+            <button value="1" id="um" class="numeros">1</button>
+            <button value="2" id="dois" class="numeros">2</button>
+            <button value="3" id="tres" class="numeros">3</button>
+        </div>
+        <div>
+            <button value="0" id="zero" class="numeros">0</button>
+            <button value="." id="ponto" class="subOperadores">.</button>
+            <button value="=" id="igual">=</button>
+        </div>
+
+        <!-- Teclado de Operadores -->
+        <div>
+            <button value="+" class="operadores">+</button>
+            <button value="÷" class="operadores">÷</button>
+            <button value="AC" class="limparTudo">AC</button>
+            <button value="-" class="operadores">-</button>
+            <button value="*" class="operadores">X</button>
+            <button value="CE" class="limparPouco">CE</button>
+        </div>
+    </div>
+</body>
+<script src="javaScript/main.js"></script>
+</html>

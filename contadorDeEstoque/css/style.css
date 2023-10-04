@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #deb887;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+#tabela {
+    width: 16%;
+}
+#nome, #codigo, #quantidade{
+    width: 50%;
+}
+.buscando-produtos {
+    width: 15.6%;
+    height: 30px;
+}
+/* Estilo para as listas */
+.lista-produtos,
+.codigos-produtos,
+.quantidae-produtos {
+    list-style-type: none; /* Remove os marcadores padrão das listas */
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Exibe as listas lado a lado */
+    vertical-align: top; /* Alinha as listas no topo */
+    width: 4.9%;
+}
+
+/* Estilo para os itens da lista */
+.lista-produtos li,
+.codigos-produtos li,
+.quantidae-produtos li {
+    margin: 5px; /* Espaçamento entre os itens */
+    background-color: #d3d3d3;
+    width: 100%;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+.controle-tabela{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.adicionar-produto, .remover-produto, .alterar-produto{
+    display: none;
+}
+
+/* Define as entradas e rótulos como "block" */
+.adicionar-produto input,
+.remover-produto input,
+.alterar-produto input,
+.adicionar-produto label,
+.remover-produto label,
+.alterar-produto label {
+    display: block;
+    margin-bottom: 10px; /* Adiciona uma margem entre as entradas e rótulos */
+}
+#remover{
+    background-color: #f19292;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+#alterar{
+    background-color: #f1f165;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+#adicionar{
+    background-color: #89da89;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+#confirmarAdicao, #confirmarRemocao, #confirmarAlteracao{
+    background-color: #4690f1;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
