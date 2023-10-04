@@ -1,0 +1,87 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcf2;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+/*cor da seleção*/
+::selection{
+    background-color: #000;
+    color: #ffff00;
+}
+/*cor da seleção para o FireFox*/
+::-moz-selection{
+    background-color: #000;
+    color: #ffff00;  
+}
+header{
+    width: 100%;
+    height: 5vh;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+/*esconde o menu suspenso por padrão*/
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
+}
+/*mostra o menu suspenso quando o link é hover*/
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/*estiliza as opções do menu*/
+.dropdown-content a{ 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content:hover a{
+transform: rotateY(15deg);
+    transition: 0.5s;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.linkMenu{
+    width: 10%;
+    text-decoration: none;
+    color: #ffff00;
+}
+.linkMenu:hover{
+   color: #f1f1c2; 
+   transition: 0.5s;
+}
+.documentacao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.documentacao h2{
+    margin-top: -20px;
+}
+.gitHub{
+    display: flex;
+    justify-content: center;
+margin-top: 10%;
+}
+footer{
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
+    background-color: #808080;
+}
