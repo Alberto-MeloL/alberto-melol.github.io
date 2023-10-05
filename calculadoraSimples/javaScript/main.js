@@ -15,7 +15,7 @@ function validarEntrada() {
     } else {
         erroMensagem.textContent = ""; // Limpa a mensagem de erro
         erroMensagem.style.display = "none"; // Oculta a mensagem de erro
-        Number(exibirResultado.value)
+        Number(exibirResultado.value);
     }
 }
 
@@ -73,29 +73,9 @@ tirarPouco.addEventListener("click", function() {
         //atualizando a valor atual
         exibirResultado.value = valorAtualInput;
     }
-})
+});
  
 igual.addEventListener("click", function(){
     var resultado = eval(exibirResultado.value)
     exibirResultado.value = resultado
-})
-
-
-// var converterNumero;
-// function numerosClicado(numeros) {
-//     converterNumero = Number(numeros)
-//   exibirResultado.value += Number(numeros.value)
-// }
-
-// operedores.addEventListener("click", function name(operador) {
-//     exibirResultado.value += operedores
-// })
-// botoesNumerico.forEach(function(button) {
-//     button.addEventListener("click", function() {
-//         //o valor do botao clicado esta em botao.value
-//         const valorClicado = numeros.value;
-// //exibir na caixa de entrada
-// exibirResultado.value += valorClicado;
-//     })
-// });
-    
+});

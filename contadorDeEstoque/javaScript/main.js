@@ -1,8 +1,5 @@
 var inputElement = document.querySelector("input")
 var listElement = document.querySelector("ul")
-//var itemElement = listElement.querySelectorAll("li")
-//var listElementCodigo = document.querySelector("ul")
-//var itemCodigo = listElement.querySelectorAll("li")
 
 //criando um objeto para armazenar os produtos
 const produtos = {
@@ -155,16 +152,3 @@ removerProdutos.addEventListener("click", function() {
         alert("Produto não existe, impossível ser removido!")
     }
 });
-
-
-// inputElement.addEventListener("input", (e) => {
-//     let inputed = e.target.value.toLowerCase()
-//     itemElement.forEach((li) => {
-//         let text = li.textContent.toLowerCase()
-//         if (text.includes(inputed)) {
-//             li.style.display = "block"
-//         } else {
-//             li.style.display = "none"
-//         }
-//     })
-// })
