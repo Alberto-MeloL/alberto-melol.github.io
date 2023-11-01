@@ -1,0 +1,16 @@
+Continuar estudando em JavaScript:
+arrow functions, callbacks, anonymous functions, as iife
+
+Objetos
+Modularização
+RegEx
+JSON
+AJAX
+NodeJs
+
+FrameWorks:
+jQery
+Vue.js
+Angular
+
+Classes

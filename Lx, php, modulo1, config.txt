@@ -1,0 +1,11 @@
+Ferramentas de Boot:
+Rufus
+Linux Live usb creator
+BalenaEtcher
+Conhecimentos em Dart/Flutter, Node, Docker e PostgreSQL
+ava, SQL Developer, DBeaver, bancos de dados Oracle e MySQL, bem como no Visual Studio Code.
+
+linux, angular, css/html, node.js, sql, ajaxm xml
+
+drag and drop
+treinar java

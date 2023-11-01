@@ -1,0 +1,10 @@
+AULA 7
+https://pt.stackoverflow.com/questions/48143/como-criar-duas-conex%C3%B5es-com-banco-de-dados-diferentes
+https://pt.stackoverflow.com/questions/231781/envio-de-formul%C3%A1rio-para-banco-de-dados-com-mysql-html-e-php
+spellcheck
+progress
+progress
+onblur
+
+Mysql
+Linux
